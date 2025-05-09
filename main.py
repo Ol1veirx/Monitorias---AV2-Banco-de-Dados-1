@@ -65,11 +65,11 @@ def main():
     for linha in maior_hora():
         print(linha)
 
-    atualizar_monitoria(1,novas_horas=1)
+    #atualizar_monitoria(1,novas_horas=1)
     #atualizar_monitoria(2, dia="Quarta-Feira")
 
     # Aqui inserimos apenas para testar o delete
-    #insert_monitoria(2, 3, "Domingo", "14:00", 5)
+    insert_monitoria(2, 3, "Domingo", "14:00", 5)
 
     #excluir_monitoria(4)
 
